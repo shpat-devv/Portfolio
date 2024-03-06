@@ -536,6 +536,9 @@ body.light hr.separator {
   top: -50%;
 }
 
+.card{
+  background: #000;
+}
 .home .bg {
   background-image: url("../img/a.png");
   background-size: cover;
