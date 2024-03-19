@@ -535,9 +535,24 @@ body.light hr.separator {
   left: -83%;
   top: -50%;
 }
+.project_images{
 
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.custom_titles{
+
+  text-align: center;
+}
 .card{
-  background: #000;
+  background: #1c1919;
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.9);
+  margin: 20px  -100px;
+  transition: 2s;
+  width: 900px;
 }
 .home .bg {
   background-image: url("../img/a.png");
@@ -661,7 +676,7 @@ body.light hr.separator {
   top: 13px;
   width: 30px;
   height: 1px;
-  background: #777;
+  background: #000000;
 }
 
 /* Resume */
