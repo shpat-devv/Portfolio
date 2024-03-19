@@ -780,7 +780,7 @@ body.light hr.separator {
 .about .c100 {
   float: none !important;
   margin: 0 auto;
-  background-color: #252525;
+  background-color: #000000;
 }
 
 .about .c100 > span {
