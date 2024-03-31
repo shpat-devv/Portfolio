@@ -13,7 +13,7 @@ if (isset($_REQUEST['name'], $_REQUEST['email'], $_REQUEST['subject'], $_REQUEST
     $to = 'shpatavdiu4@gmail.com';
 
     // Set additional headers.
-    $headers = "From: $name <$from> \r\n";
+    $headers = "From: $name <$mail> \r\n";
     $headers .= "Reply-To: $name <$mail> \r\n";
 
     // Send email.
@@ -21,3 +21,5 @@ if (isset($_REQUEST['name'], $_REQUEST['email'], $_REQUEST['subject'], $_REQUEST
 
     echo ($send_email) ? 'success' : 'error';
 }
+
+
