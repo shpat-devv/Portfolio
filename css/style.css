@@ -51,7 +51,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
-  color: #d8e529;
+  color: #d8a524;
   font-weight: 500;
   line-height: 1.6;
   position: relative;
@@ -59,7 +59,7 @@ body {
   background-position: center;
   height: 100%;
   width: 100%;
-  background-color: rgb(8, 8, 8); /* Corrected background-color value */
+  background-color: rgb(4, 4, 4); /* Corrected background-color value */
 }
 
 .custom_image{
@@ -584,7 +584,7 @@ body.light hr.separator {
 
 .home .bg {
   background-image: url("../img/a.png");
-  background-size: 500px 700px;
+  background-size: 500px 900px;
   background-repeat: no-repeat;
   background-position: top;
   height: calc(100vh - 80px);
