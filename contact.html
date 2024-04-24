@@ -104,7 +104,7 @@
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
-                <form method="POST" action="https://formsubmit.co/shpatavdiu4@gmail.com">
+                <form method="POST" action="https://formsubmit.co/shpatavdiu4@gmail.com" onsubmit="hideSubmitPage(event)">
                     <div class="contactform">
                         <div class="row">
                             <div class="col-12 col-md-4">
@@ -116,12 +116,14 @@
                             <div class="col-12 col-md-4">
                                 <input type="text" name="subject" placeholder="SUBJECT">
                             </div>
+                            <div>
+                                <input type="hidden" name="_next" value="https://uglypr1nces.github.io/uglyprincess-Yip.github.io/contact.html">
                             <div class="col-12">
-                                <input type = "text" name="message" placeholder="Message">
+                                <textarea class="contact-message" name="message" placeholder="Message"></textarea>
                                 <button type="submit" class="button">
                                     <span class="button-text">Send</span>
                                     <span class="button-icon fa fa-send"></span>
-                                </button>                                
+                                </button>
                             </div>
                             <div class="col-12 form-message">
                                 <span class="output_message text-center font-weight-600 text-uppercase"></span>

@@ -581,7 +581,17 @@ body.light hr.separator {
   border-top-right-radius: 30px; /* Added border-radius for images */
 }
 
-
+textarea.contact-message{
+  background-color: #28a745;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.9);
+  max-width: 1000px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
 .home .bg {
    background-image: url("../img/a.png");
   background-size: 500px 900px;
