@@ -75,6 +75,21 @@ body {
   margin-right: auto;
 }
 
+
+textarea.contact-message {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+  max-width: 1000px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  color: #d8a524;
+}
+
+
 .poppins-font {
   font-family: 'Poppins', sans-serif;
 }
