@@ -63,7 +63,7 @@ body {
 }
 
 .custom_image{
-  border-radius: 20px;
+  border-radius: 300px;
   margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,.9);
@@ -580,33 +580,45 @@ body.light hr.separator {
   background: #1f1a1a;
   border-radius: 30px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,.9);
-  margin: 10px 5px; /* Adjusted margin */
-  transition: 2s;
-  max-width: 1000px; /* Adjusted max-width */
-  width: calc(33.33% - 20px); /* Adjusted width */
-  display: inline-block; /* Changed display property */
-  vertical-align: top; /* Align cards to the top */
+  box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+  margin: 10px 5px; 
+  transition: 1s;
+  max-width: 1000px; 
+  width: calc(33.33% - 20px); 
+  display: inline-block; 
+  vertical-align: top; 
 }
+
+.card:hover {
+  box-shadow: 0 0 20px 10px yellow; 
+}
+
 
 .card img {
   width: 100%;
-  height: auto;
-  border-top-left-radius: 30px; /* Added border-radius for images */
-  border-top-right-radius: 30px; /* Added border-radius for images */
+  height: 100%;
 }
 
 .home .bg {
-   background-image: url("../img/a.png");
-  background-size: 500px 900px;
-  background-repeat: no-repeat;
-  background-position: top;
-  height: calc(100vh - 80px);
+  background-image: url("../img/a.png");
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Correct typo: no-repeat */
+  height: 68%;
+  width: 100%; /* Make it take full width */
   z-index: 111;
   border-radius: 30px;
-  left: 40px;
-  top: 40px;
-  box-shadow: 0 0 7px rgba(0,0,0,.9);
+  left: 5%; /* Remove left positioning to center it */
+  top: 15%;
+  margin: 0 auto; /* Center the element horizontally */
+  box-shadow: 0 0 7px rgba(0, 0, 0, .9);
+  position: relative; /* Ensure it's positioned relative to its container */
+  transition: 1s;
+}
+
+
+.home .bg:hover {
+  box-shadow: 0 0 20px 10px yellow;
 }
 
 .home .container-home {
