@@ -1,3 +1,8 @@
+// Include the SMTP.js library
+var script = document.createElement('script');
+script.src = 'https://smtpjs.com/v3/smtp.js';
+document.head.appendChild(script);
+
 document.getElementById('sendButton').addEventListener('click', function() {
   // Get values from input fields
   var name = document.querySelector('input[name="name"]').value;
@@ -11,7 +16,7 @@ document.getElementById('sendButton').addEventListener('click', function() {
       Username: "unattractivequeen@gmail.com",
       Password: "cffs ehnp wlca sxwd",
       To: 'shpatavdiu4@gmail.com',
-      From: "unattractivequeen@gmail.com",
+      From: email,
       Subject: subject,
       Body: "Name: " + name + "<br>Email: " + email + "<br>Message: " + message
   }).then(function(message) {
