@@ -562,11 +562,6 @@ body.light hr.separator {
   left: -83%;
   top: -50%;
 }
-.project_images{
-
-  margin-top: 20px;
-  border-radius: 20px;
-}
 
 .custom_titles{
 
@@ -605,16 +600,26 @@ body.light hr.separator {
   box-shadow: 0 0 20px 10px yellow; 
 }
 
-
-.card img {
-  width: 100%;
-  height: 100%;
-}
-
 .card font {
   color: #d8a524;
   font-size: 1.5vw; /* Adjust font size relative to viewport width */
   font-weight: 600;
+}
+
+.card-video-player {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.card-video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home .bg {
