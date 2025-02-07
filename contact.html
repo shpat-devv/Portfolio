@@ -88,24 +88,20 @@
                     <i class="fa fa-envelope-open position-absolute"></i>
                     <span class="d-block">Email</span>shpat.avdiu.professional@gmail.com
                 </p>
-                <p class="open-sans-font custom-span-contact position-relative">
-                    <i class="fa fa-phone-square position-absolute"></i>
-                    <span class="d-block">Call me</span>+41 76 466 54 61
-                </p>
                 <ul class="social list-unstyled pt-1 mb-5">
-                    <li class="github">
+                    <li class="Github">
                         <a href="https://github.com/Uglypr1nces" title="Github">
                             <i class="fa fa-github"></i>
                         </a>
                     </li>
-                    <li class="youtube">
-                        <a href="https://www.youtube.com/channel/UC1Wlm8dXUfhmOC8xmohcc6g" title="Youtube">
+                    <li class="Youtube">
+                        <a href="https://www.youtube.com/@uglypr1nc3ss" title="Youtube">
                             <i class="fa fa-youtube"></i>
                         </a>
                     </li>
-                    <li class="Instagram">
-                        <a href="https://www.instagram.com/uglypr1nc3ss/" title="Instagram">
-                            <i class="fa fa-instagram"></i>
+                    <li class="Linked In">
+                        <a href="https://www.linkedin.com/in/shpat-avdiu-7a164734b/" title="Linked In">
+                            <i class="fa fa-linkedin"></i>
                         </a>
                     </li>
                 </ul>
@@ -113,27 +109,30 @@
             <!-- Left Side Ends -->
             <!-- Contact Form Starts -->
             <div class="col-12 col-lg-8">
-                <form method="POST" action="https://formsubmit.co/shpatavdiu4@gmail.com" onsubmit="hideSubmitPage(event)">
+                <form method="POST" action="https://formsubmit.co/shpat.avdiu.professional@gmail.com" onsubmit="hideSubmitPage(event)">
                     <div class="contactform">
                         <div class="row">
                             <div class="col-12 col-md-4">
-                                <input type="text" name="name" placeholder="NAME">
+                                <input type="text" name="name" placeholder="NAME" required>
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="email" name="email" placeholder="EMAIL">
+                                <input type="email" name="email" placeholder="EMAIL" required>
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="text" name="subject" placeholder="SUBJECT">
+                                <input type="text" name="subject" placeholder="SUBJECT" required>
                             </div>
-                            <div>
-                                <input type="hidden" name="_next" value="https://uglypr1nces.github.io/uglyprincess-Yip.github.io/contact.html">
+
+                            <!-- Corrected Hidden Input -->
+                            <input type="hidden" name="_next" value="https://shpatdev.ch/contact.html">
+
                             <div class="col-12">
-                                <textarea style="width: 650px;"name="message" placeholder="Message"></textarea>
+                                <textarea name="message" placeholder="Message" required></textarea>
                                 <button type="submit" class="button">
                                     <span class="button-text">Send</span>
-                                    <span class="button-icon fa fa-send"></span>
+                                    <span class="button-icon fas fa-paper-plane"></span>
                                 </button>
                             </div>
+
                             <div class="col-12 form-message">
                                 <span class="output_message text-center font-weight-600 text-uppercase"></span>
                             </div>
@@ -142,6 +141,7 @@
                 </form>
             </div>
             <!-- Contact Form Ends -->
+
         </div>
     </div>
 
