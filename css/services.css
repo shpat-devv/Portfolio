@@ -301,7 +301,6 @@ p {
     border-radius: 12px;
     background-color: #d9d9d92f;
     backdrop-filter: blur(8px);
-    min-width: 344px;
     height: 100%;
   }
   .wrap {
