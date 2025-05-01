@@ -26,6 +26,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Applications Popup
 const applicationsPopup = new Popup({
+    backgroundColor: "#040404",
+    titleColor: "#d8a524",
+    borderWidth: "2px",
+    borderColor: "#d8a524",
     id: "applications-popup",
     title: "Applications",
     content: `
@@ -39,6 +43,10 @@ const applicationsPopup = new Popup({
 
 // Websites Popup
 const websitesPopup = new Popup({
+    backgroundColor: "#040404",
+    titleColor: "#d8a524",
+    borderWidth: "2px",
+    borderColor: "#d8a524",
     id: "websites-popup",
     title: "Websites",
     content: `
@@ -52,6 +60,10 @@ const websitesPopup = new Popup({
 
 // Scripts Popup
 const scriptsPopup = new Popup({
+    backgroundColor: "#040404",
+    titleColor: "#d8a524",
+    borderWidth: "2px",
+    borderColor: "#d8a524",
     id: "scripts-popup",
     title: "Scripts",
     content: `
@@ -65,6 +77,10 @@ const scriptsPopup = new Popup({
 
 // IT Help Popup
 const itHelpPopup = new Popup({
+    backgroundColor: "#040404",
+    titleColor: "#d8a524",
+    borderWidth: "2px",
+    borderColor: "#d8a524",
     id: "ithelp-popup",
     title: "IT Help",
     content: `
