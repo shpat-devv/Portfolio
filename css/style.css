@@ -586,13 +586,13 @@ body.light hr.separator {
 
 @media (max-width: 992px) {
   .card {
-    width: calc(50% - 20px); /* Adjust to 2 columns on medium screens */
+    width: calc(50% - 20px); 
   }
 }
 
 @media (max-width: 576px) {
   .card {
-    width: calc(100% - 20px); /* Adjust to 1 column on small screens */
+    width: calc(100% - 20px); 
   }
 }
 
@@ -602,7 +602,7 @@ body.light hr.separator {
 
 .card font {
   color: #d8a524;
-  font-size: 1.5vw; /* Adjust font size relative to viewport width */
+  font-size: 1.5vw; 
   font-weight: 600;
 }
 
@@ -623,10 +623,10 @@ body.light hr.separator {
 }
 
 .home .bg {
-  background-image: url("../img/a.png");
-  background-size: cover; /* Ensure the image covers the entire element */
-  background-position: center; /* Center the background image */
-  background-repeat: no-repeat; /* Correct typo: no-repeat */
+  background-image: url("../img/a.jpeg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
   height: 68%;
   width: 100%; /* Make it take full width */
   z-index: 111;
