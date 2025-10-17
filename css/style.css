@@ -606,6 +606,16 @@ body.light hr.separator {
   font-weight: 600;
 }
 
+.card img {
+  margin-bottom: 15px;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card-video-player {
   position: relative;
   padding-bottom: 56.25%;
