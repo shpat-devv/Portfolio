@@ -9,6 +9,7 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2.5em;
   justify-items: center;
+  justify-content: center; /* ensure the grid is centered */
 }
 
 .education-tile {
@@ -17,11 +18,14 @@
   background: linear-gradient(135deg, #1d1b1b, #292424);
   border-radius: 16px;
   overflow: hidden;
-  width: 100%;
+  width: auto;               /* changed: avoid forcing full width */
   max-width: 500px;
+  justify-self: center;      /* ensure the tile is centered in its grid cell */
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.08);
   transition: all 0.3s ease;
   position: relative;
+  cursor: pointer;
+  margin: 0 auto;
 }
 
 .education-tile:hover {
@@ -90,5 +94,17 @@
 
   .education-text {
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .education-tile-container {
+    grid-template-columns: 1fr;
+  }
+  /* keep tiles centered and prevent them from stretching full-width */
+  .education-tile {
+    width: auto;
+    max-width: 420px;
+    justify-self: center;
   }
 }

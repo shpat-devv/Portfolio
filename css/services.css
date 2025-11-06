@@ -15,9 +15,39 @@
   transition: 0.2s;
 }
 
+.mobile-button-wrapper {
+  display: none;
+  margin-top: 18px;
+  color: #000000 !important;
+  width: 100%;
+}
+
 .container-card:hover{
     box-shadow: 0 0 20px 10px yellow; 
 }
+
+.services-button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 12px;
+  font-size: 0.8rem;  
+  letter-spacing: 2px;  
+  cursor: pointer;
+  background: #d8a524;
+  color: rgba(255,255,255,0.95);
+  filter: drop-shadow(0);
+  font-weight: bold;
+  transition: all .3s ease; 
+}
+
+.services-button:hover{
+  transform: scale(1.125);  
+  border-color: rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 10px 5px rgba(0,0,0,0.125));
+  transition: all .3s ease;    
+}
+
 .wrapper-card {
   width: 100%;
   height: 100%;
@@ -33,16 +63,12 @@
   border: 1px solid rgba(255,255,255, 0.255)
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* center horizontally */
-    justify-content: center; /* center vertically if container has height */
     gap: 1.5rem;
   }
   .container-card {
-    width: 70%;
+    width: 96%;
     max-width: 900px;
     margin: 0 auto; 
     margin-top: 20%;
@@ -51,6 +77,25 @@
     height: 200px;
   }
   
+}
+
+@media (max-width: 400px) {
+  .container-card {
+    border: #d8a524 2px solid;
+  }
+  .wrapper-card p, h1{
+    display: none !important;
+  }
+  .button-wrapper {
+    display: none !important;
+  }
+  .mobile-button-wrapper {
+    display: block !important;;
+  }
+  .services-button {
+    width: 100%;
+    border-radius: 10px;
+  }
 }
 
 h1{

@@ -595,6 +595,7 @@ body.light hr.separator {
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
 }
 
 /* Hover animation */
@@ -677,33 +678,6 @@ body.light hr.separator {
 .btn-secondary:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: scale(1.05);
-}
-/* Ensure projects section never exceeds viewport and center cards */
-.projects-section,
-.projects-grid {
-  width: 100%;
-  max-width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-  overflow-x: hidden; /* prevent horizontal overflow */
-}
-
-/* use a responsive grid that centers items */
-.projects-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  justify-items: center; /* always center cards horizontally */
-  align-items: start;
-  gap: 2rem;
-  padding: 48px 4%;
-}
-
-/* make sure individual cards stay centered and fit their container */
-.card {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 400px; /* keep card max width */
-  box-sizing: border-box;
 }
 
 /* Responsive adjustments for smaller phones */
