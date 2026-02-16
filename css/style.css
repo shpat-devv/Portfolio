@@ -62,6 +62,10 @@ body {
   background-color: rgb(4, 4, 4); /* Corrected background-color value */
 }
 
+#mail-link {
+  text-decoration: none;
+}
+
 .custom_image{
   border-radius: 300px;
   margin-top: 20px;
