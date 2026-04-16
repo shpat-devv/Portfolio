@@ -121,8 +121,8 @@
                                 <li> <span class="title">First Name :</span> <span
                                         class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Shpat</span>
                                 </li>
-                                <li> <span class="title">Last Name :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Avdiu</span>
+                                <li> <span class="title">Favorite Food :</span> <span
+                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Lasagna</span>
                                 </li>
                                 <li> <span class="title">Date of Birth :</span> <span
                                         class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">06.10.2007</span>
@@ -137,7 +137,7 @@
                     <div class="row">
                         <div class="col-6">
                             <div class="box-stats with-margin">
-                                <h3 class="poppins-font position-relative">2</h3>
+                                <h3 class="poppins-font position-relative">3</h3>
                                 <p class="open-sans-font m-0 position-relative text-uppercase">
                                     Years of<span class="d-block">Experience</span>
                                 </p>
@@ -176,12 +176,11 @@
             <section class="projects-section mt-5">
                 <section
                     class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
-                    <h1>MY <span>PROJECTS</span></h1>
+                    <h1>Favorite <span>PROJECTS</span></h1>
                     <span class="title-bg">Resume</span>
                 </section>
 
                 <div class="projects-grid">
-
                     <div class="card">
                         <div class="card-video-player">
                             <iframe src="https://youtube.com/embed/zoKQSXGfnbg" frameborder="0"
@@ -190,9 +189,12 @@
                         <div class="card-body">
                             <h5 class="card-title">Filtero</h5>
                             <p class="card-text">
-                                Filtero is a user friendly platform for applying preset filters to your images. Built
-                                with Django (backend) and React
-                                (frontend), Filtero makes it easy to enhance your photos and share your creativity.
+                                Filtero is a simple and user-friendly web app for applying preset filters to images. It
+                                was my final project for the CS50 course. The backend is built with Django and Django
+                                REST Framework, using JWT for authentication, while the frontend is made with React. The
+                                backend is hosted on Render and the frontend on Vercel, so it might take a short moment
+                                to load when you first open it.
+
                             </p>
                             <a href="https://filtero-frontend.vercel.app" class="btn btn-primary" target="_blank">Visit
                                 page</a>
@@ -200,21 +202,7 @@
                                 target="_blank">GitHub Repository</a>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/kIh_GRWolXs" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Word List Generator</h5>
-                            <p class="card-text">
-                                A simple flutter mobile app that generates random word lists. Save your favorite
-                                wordlists on a database managed by Django.
-                            </p>
-                            <a href="https://github.com/shpat-devv/MobileApp" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
+
                     <div class="card">
                         <div class="card-video-player">
                             <iframe src="https://www.youtube.com/embed/9sC8oq0Zmdk" frameborder="0"
@@ -223,43 +211,13 @@
                         <div class="card-body">
                             <h5 class="card-title">Robot Controller</h5>
                             <p class="card-text">
-                                A web based Django app to control robots remotely using a controller. Provides
-                                real time movement and control features through a simple browser interface.
+                                This was one of my first projects. It’s a Django app that lets you control a robot
+                                remotely by sending commands over TCP sockets. The robot runs on a Raspberry Pi acting
+                                as a TCP server, which listens for commands and controls movement using the PiCar-X
+                                library. A fun way I got into combining software with hardware.
+
                             </p>
                             <a href="https://github.com/shpat-devv/RobotDjangoApp" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/KmNe_vO_jeQ" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">CS50 Finance</h5>
-                            <p class="card-text">
-                                A full stack Flask web application that simulates a stock trading platform.
-                                Users can register, log in securely, look up stock prices, buy and sell shares, and view
-                                their complete transaction history all with persistent data stored in SQLite.
-                            </p>
-                            <a href="https://finance-fuwh.onrender.com/" class="btn btn-primary" target="_blank">Visit
-                                page</a>
-                            <a href="https://github.com/shpat-devv/Finance" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/4E21Nc8LL30" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Chatify</h5>
-                            <p class="card-text">
-                                Chatify is a Windows chatting app offering real-time communication with a modern
-                                interface. Built for fast and secure chatting with friends and colleagues.
-                            </p>
-                            <a href="https://github.com/shpat-devv/Chatify" class="btn btn-primary"
                                 target="_blank">GitHub Repository</a>
                         </div>
                     </div>
@@ -272,83 +230,22 @@
                         <div class="card-body">
                             <h5 class="card-title">Lehrstellen Bewerber</h5>
                             <p class="card-text">
-                                Automates creating and sending apprenticeship applications efficiently, saving time and
-                                effort
-                                during the job search process.
+                                A small tool that automates writing and sending apprenticeship (or general job)
+                                applications. It saves time by automatically filling in company details, dates, job
+                                titles, and even optional motivation text. It connects to Gmail, builds emails using
+                                MIME, and edits Word documents with python-docx, all through a simple CLI interface. I
+                                used it myself and shared it with classmates.
                             </p>
                             <a href="https://github.com/shpat-devv/LehrstellenBewerber" class="btn btn-primary"
                                 target="_blank">GitHub Repository</a>
                         </div>
                     </div>
-
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/j2AKKr1VsF8" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Birthday Tracker</h5>
-                            <p class="card-text">
-                                A sleek birthday tracking web app built with Flask. Originally a Harvard CS50 project,
-                                now redesigned with
-                                improved visuals and functionality.
-                            </p>
-                            <a href="https://birthdaytracker.onrender.com/" class="btn btn-primary"
-                                target="_blank">Visit Website</a>
-                            <a href="https://github.com/shpat-devv/BirthdayTracker" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/ahVKxAAgAYE" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">DinoRun</h5>
-                            <p class="card-text">
-                                A 2D platformer game inspired by Google’s offline dinosaur game. Jump over obstacles and
-                                test your reflexes!
-                            </p>
-                            <a href="https://github.com/shpat-devv/DinoRun" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/P6GgeudZQwI" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Cai Clone (Thing AI)</h5>
-                            <p class="card-text">
-                                A Django-based web app replicating the core functionalities of a conversational AI
-                                platform.
-                                Built for experimentation and scalability.
-                            </p>
-                            <a href="https://github.com/shpat-devv/CaiClone" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-video-player">
-                            <iframe src="https://www.youtube.com/embed/LeJhdv5N8Kc" frameborder="0"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Flappy Bird</h5>
-                            <p class="card-text">
-                                A clone of the classic Flappy Bird game where the player controls a bird navigating
-                                through pipes
-                                with simple, addictive gameplay.
-                            </p>
-                            <a href="https://github.com/shpat-devv/FlappyBird" class="btn btn-primary"
-                                target="_blank">GitHub Repository</a>
-                        </div>
-                    </div>
-
                 </div>
+                <p id="additional-info"> More projects available on my github: <a
+                        href="https://github.com/shpat-devv?tab=repositories" target="_blank">shpat-devv</a>
+                    or on my youtube channel: <a href="https://www.youtube.com/@shpat-devv"
+                        target="_blank">shpat-devv</a>
+                </p>
             </section>
 
             <!-- Experience starts Section starts -->
@@ -368,6 +265,19 @@
                 <div class="education-section">
                     <div class="education-tile-container">
                         <div class="education-tile">
+                            <img src="img/fiver.webp" alt="fiver" class="education-image" />
+                            <div class="education-content">
+                                <h4 class="education-time">2025</h4>
+                                <a href="https://business-template-five-iota.vercel.app/">
+                                    <h4 class="education-title">Business React template</h4>
+                                </a>
+                                <p class="education-text">
+                                    Built a clean and reusable Next.js React template for a Fiverr client, focused on
+                                    speed,
+                                    responsive design, and reusability. </p>
+                            </div>
+                        </div>
+                        <div class="education-tile">
                             <img src="img/yourapplicant.png" alt="applicant-ag" class="education-image" />
                             <div class="education-content">
                                 <h4 class="education-time">2025</h4>
@@ -383,7 +293,7 @@
                             </div>
                         </div>
                         <div class="education-tile">
-                            <img src="img/DJxFlutter.png" alt="djxflutter" class="education-image" />
+                            <img src="img/logo.png" alt="djxflutter" class="education-image" />
                             <div class="education-content">
                                 <h4 class="education-time">2025</h4>
                                 <a href="https://appnity.ch/">
@@ -403,7 +313,8 @@
                                     <h4 class="education-title">Truck Service Perlen</h4>
                                 </a>
                                 <p class="education-text">
-                                    Currently working on a fullstack communication platform for truck service AG using django channels and
+                                    Currently working on a fullstack communication platform for truck service AG using
+                                    django channels and
                                     flutter for the mobile app. </p>
                             </div>
                         </div>
