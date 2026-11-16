@@ -714,6 +714,7 @@ body.light hr.separator {
 
 .about-showcase .showcase-heading {
   margin-bottom: var(--space-md);
+  color: white;
 }
 
 .fact-grid,
