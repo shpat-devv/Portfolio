@@ -50,13 +50,6 @@
             </li>
 
             <li class="icon-box">
-                <i class="fa fa-briefcase"></i>
-                <a href="services.html">
-                    <h2>Services</h2>
-                </a>
-            </li>
-
-            <li class="icon-box">
                 <i class="fa fa-envelope-open"></i>
                 <a href="contact.html">
                     <h2>Contact</h2>
@@ -76,8 +69,6 @@
                 <ul class="list-unstyled" id="menu">
                     <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
                     <li class="active"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                    <li><a href="services.html"><i class="fa fa-briefcase"></i><span>Services</span></a>
-                    </li>
                     <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
                 </ul>
             </div>
@@ -96,82 +87,178 @@
         <div class="container">
             <div class="row">
                 <!-- Personal Info Starts -->
-                <div class="col-12 col-lg-5 col-xl-6">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 class="text-uppercase custom-title mb-0 ft-wt-600">Personal Information</h3>
-                        </div>
-
-                        <div class="col-6">
-                            <ul class="about-list list-unstyled open-sans-font">
-                                <li> <span class="title">Country :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Switzerland</span>
-                                </li>
-                                <li> <span class="title">Hobby's :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Coding,
-                                        Skating</span>
-                                </li>
-                                <li> <span class="title">Languages :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">German,
-                                        English, Albanian</span> </li>
-                            </ul>
-                        </div>
-                        <div class="col-6">
-                            <ul class="about-list list-unstyled open-sans-font">
-                                <li> <span class="title">First Name :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Shpat</span>
-                                </li>
-                                <li> <span class="title">Favorite Food :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Lasagna</span>
-                                </li>
-                                <li> <span class="title">Date of Birth :</span> <span
-                                        class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">06.10.2007</span>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="col-12">
+                    <div class="text-center">
+                        <section class="about-showcase" aria-labelledby="personal-info-heading">
+                            <h3 id="personal-info-heading" class="text-uppercase custom-title mb-0 ft-wt-600 showcase-heading"> Who <span>Am i?</span></h3>
+                        </section>
                     </div>
                 </div>
                 <!-- Personal Info Ends -->
-                <!-- Boxes Starts -->
-                <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="box-stats with-margin">
-                                <h3 class="poppins-font position-relative">3</h3>
-                                <p class="open-sans-font m-0 position-relative text-uppercase">
-                                    Years of<span class="d-block">Experience</span>
-                                </p>
-                            </div>
+            </div>
+
+<!-- ============ THIS IS ME ============ -->
+<style>
+  .this-is-me { --me-accent: #e0a526; --me-line: rgba(128,128,128,.45); padding: 20px 0; }
+  .this-is-me .me-wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: start; }
+  .this-is-me .me-intro p { line-height: 1.8; margin-bottom: 14px; max-width: 52ch; }
+  .this-is-me .me-intro .me-hello { font-size: 1.9rem; font-weight: 700; line-height: 1.2; margin-bottom: 18px; }
+  .this-is-me .me-intro .me-hello b { box-shadow: inset 0 -0.38em 0 var(--me-accent); font-weight: inherit; }
+  .this-is-me .me-now dl { margin: 0; padding: 0; }
+  .this-is-me .me-now h3 { font-size: 1rem; margin: 0 0 10px; font-weight: 600; }
+  .this-is-me .me-row { display: flex; align-items: baseline; gap: 8px; padding: 9px 0; }
+  .this-is-me .me-row dt { font-weight: 600; white-space: nowrap; }
+  .this-is-me .me-row .me-leader { flex: 1; border-bottom: 2px dotted var(--me-line); transform: translateY(-4px); min-width: 16px; }
+  .this-is-me .me-row dd { margin: 0; text-align: right; opacity: .85; }
+  .this-is-me .me-loadout { max-width: 980px; margin: 36px auto 0; padding: 0 20px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  .this-is-me .me-chip { display: inline-flex; align-items: center; gap: 9px; padding: 9px 16px; border: 1.5px solid var(--me-line); border-radius: 999px; font-size: .95rem; }
+  .this-is-me .me-chip i { color: var(--me-accent); width: 1.1em; text-align: center; }
+  @media (max-width: 767px) { .this-is-me .me-wrap { grid-template-columns: 1fr; gap: 28px; } }
+</style>
+
+<section class="this-is-me" aria-labelledby="this-is-me-heading">
+    <div class="me-wrap open-sans-font">
+        <div class="me-intro">
+            <p>Hi, I'm Shpat, a passionate software developer with a focus on .NET technologies.
+        </div>
+
+        <div class="me-now">
+            <dl>
+            <div class="me-row"><dt>Based in</dt><span class="me-leader" aria-hidden="true"></span><dd>Switzerland</dd></div>
+            <div class="me-row"><dt>Learning</dt><span class="me-leader" aria-hidden="true"></span><dd>C#</dd></div>
+            <div class="me-row"><dt>Loves</dt><span class="me-leader" aria-hidden="true"></span><dd>Playing Guitar</dd></div>
+            <div class="me-row"><dt>Riding a</dt><span class="me-leader" aria-hidden="true"></span><dd>GSR 600</dd></div>
+            <div class="me-row"><dt>Fuelled by</dt><span class="me-leader" aria-hidden="true"></span><dd>Better Future</dd></div>
+            </dl>
+        </div>
+    </div>
+
+    <ul class="me-loadout open-sans-font" aria-label="Hobbies and interests" style="list-style:none;">
+        <li class="me-chip"><i class="fa fa-headphones" aria-hidden="true"></i> Music</li>
+        <li class="me-chip"><i class="fa fa-motorcycle" aria-hidden="true"></i> Motor Cycling</li>
+        <li class="me-chip"><i class="fa fa-music" aria-hidden="true"></i> Guitar</li>
+        <li class="me-chip"><i class="fa fa-book" aria-hidden="true"></i> Learning</li>
+        <li class="me-chip"><i class="fa fa-coffee" aria-hidden="true"></i> Coffee</li>
+        <li class="me-chip"><i class="fa fa-github" aria-hidden="true"></i> Open source</li>
+    </ul>
+</section>
+
+<!-- ============ MY SKILLS (.NET focus) ============ -->
+<section class="about-showcase" aria-labelledby="tech-stack-heading">
+    <div class="text-center">
+        <h2 id="tech-stack-heading" class="text-uppercase custom-title mb-0 ft-wt-600 showcase-heading">My <span>Skills</span></h2>
+    </div>
+    <div class="tech-grid open-sans-font">
+                    <div class="tech-group">
+                        <h3><i class="fa fa-server" aria-hidden="true"></i> Backend (.NET)</h3>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>C#</span><span>90%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="C# proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"><span style="width: 90%"></span></div>
                         </div>
-                        <div class="col-6">
-                            <div class="box-stats with-margin">
-                                <h3 class="poppins-font position-relative">20</h3>
-                                <p class="open-sans-font m-0 position-relative text-uppercase">
-                                    Completed<span class="d-block">Projects</span>
-                                </p>
-                            </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>.NET / ASP.NET Core</span><span>85%</span></div>
+                            <div class="tech-meter" role="meter" aria-label=".NET and ASP.NET Core proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="width: 85%"></span></div>
                         </div>
-                        <div class="col-6">
-                            <div class="box-stats">
-                                <h3 class="poppins-font position-relative">5</h3>
-                                <p class="open-sans-font m-0 position-relative text-uppercase">
-                                    clients
-                                </p>
-                            </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Web API / REST</span><span>85%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Web API and REST proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="width: 85%"></span></div>
                         </div>
-                        <div class="col-6">
-                            <div class="box-stats">
-                                <h3 class="poppins-font position-relative">4</h3>
-                                <p class="open-sans-font m-0 position-relative text-uppercase">
-                                    <span class="d-block">Languages</span>
-                                </p>
-                            </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Entity Framework Core</span><span>80%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Entity Framework Core proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="width: 80%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>LINQ</span><span>80%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="LINQ proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="width: 80%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>SignalR</span><span>60%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="SignalR proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="60"><span style="width: 60%"></span></div>
                         </div>
                     </div>
-                </div>
-                <!-- Boxes Ends -->
-            </div>
-            <hr class="separator">
+                    <div class="tech-group">
+                        <h3><i class="fa fa-code" aria-hidden="true"></i> Frontend</h3>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Razor / Blazor</span><span>75%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Razor and Blazor proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width: 75%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>HTML / CSS</span><span>85%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="HTML and CSS proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="width: 85%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>JavaScript</span><span>75%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="JavaScript proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width: 75%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>TypeScript</span><span>70%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="TypeScript proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span style="width: 70%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>React</span><span>70%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="React proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span style="width: 70%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Bootstrap / Tailwind</span><span>75%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Bootstrap and Tailwind proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width: 75%"></span></div>
+                        </div>
+                    </div>
+                    <div class="tech-group">
+                        <h3><i class="fa fa-database" aria-hidden="true"></i> Data</h3>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>SQL Server</span><span>80%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="SQL Server proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="width: 80%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>PostgreSQL</span><span>65%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="PostgreSQL proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width: 65%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Dapper</span><span>65%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Dapper proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width: 65%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Redis</span><span>55%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Redis proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="55"><span style="width: 55%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>MongoDB</span><span>50%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="MongoDB proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><span style="width: 50%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>T-SQL / Stored Procedures</span><span>75%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="T-SQL and Stored Procedures proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="75"><span style="width: 75%"></span></div>
+                        </div>
+                    </div>
+                    <div class="tech-group">
+                        <h3><i class="fa fa-cogs" aria-hidden="true"></i> DevOps &amp; Tools</h3>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Git / GitHub</span><span>85%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Git and GitHub proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"><span style="width: 85%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Docker</span><span>65%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Docker proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width: 65%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Azure</span><span>65%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Azure proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width: 65%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>CI/CD (GitHub Actions)</span><span>65%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="CIandCD (GitHub Actions) proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="65"><span style="width: 65%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>xUnit / Unit Testing</span><span>70%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="xUnit and Unit Testing proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"><span style="width: 70%"></span></div>
+                        </div>
+                        <div class="tech-stat">
+                            <div class="tech-stat-heading"><span>Swagger / Postman</span><span>80%</span></div>
+                            <div class="tech-meter" role="meter" aria-label="Swagger and Postman proficiency" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"><span style="width: 80%"></span></div>
+                        </div>
+                    </div>
+    </div>
+</section>
 
             <section class="projects-section mt-5">
                 <section
@@ -241,11 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <p id="additional-info"> More projects available on my github: <a
-                        href="https://github.com/shpat-devv?tab=repositories" target="_blank">shpat-devv</a>
-                    or on my youtube channel: <a href="https://www.youtube.com/@shpat-devv"
-                        target="_blank">shpat-devv</a>
-                </p>
+
             </section>
 
             <!-- Experience starts Section starts -->
